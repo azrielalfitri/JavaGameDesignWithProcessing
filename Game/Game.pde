@@ -92,6 +92,7 @@ void keyPressed(){
   //Known Processing method that automatically will run when a mouse click triggers it
   void mouseClicked(){
   
+  
     //check if click was successful
     System.out.println("Mouse was clicked at (" + mouseX + "," + mouseY + ")");
     System.out.println("Grid location: " + grid.getGridLocation());
