@@ -88,7 +88,7 @@ void keyPressed(){
     //eliminate the picture from the old location
 
   }
-
+}
   //Known Processing method that automatically will run when a mouse click triggers it
   void mouseClicked(){
   
@@ -107,7 +107,6 @@ void keyPressed(){
     
   }
 
-}
 
 
 
