@@ -30,9 +30,9 @@ void setup() {
 
   //Load images used
   //bg = loadImage("images/chess.jpg");
-  bg = loadImage("images/x_wood.png");
+  bg = loadImage("images/wowzers.png");
   bg.resize(800,600);
-  player1 = loadImage("images/x_wood.png");
+  player1 = loadImage("images/wowzers.png");
   player1.resize(grid.getTileWidthPixels(),grid.getTileHeightPixels());
   endScreen = loadImage("images/youwin.png");
 
@@ -88,9 +88,10 @@ void keyPressed(){
     //eliminate the picture from the old location
 
   }
-
+}
   //Known Processing method that automatically will run when a mouse click triggers it
   void mouseClicked(){
+  
   
     //check if click was successful
     System.out.println("Mouse was clicked at (" + mouseX + "," + mouseY + ")");
@@ -105,9 +106,6 @@ void keyPressed(){
     grid.setMark("X",grid.getGridLocation());
     
   }
-
-}
-
 
 
 //------------------ CUSTOM  METHODS --------------------//
